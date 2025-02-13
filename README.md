@@ -3,24 +3,6 @@
 > 本仓库整理我在第四期「书生·浦语」大模型实战营中完成的作业与代码, 在[知乎专栏](https://www.zhihu.com/column/c_1866541504971022336)中存放我在本次训练营中的全部博客.
 > 有关实战营的详细信息与参与方式, 请看这里 $\longrightarrow$ [[link]](https://internlm.intern-ai.org.cn/developers/activity)
 
-<style>
-table {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid black; /* 添加边框，方便查看 */
-    text-align: center;
-}
-
-th:nth-child(1), td:nth-child(1) { width: 15%; }
-th:nth-child(2), td:nth-child(2) { width: 30%; }
-th:nth-child(3), td:nth-child(3) { width: 35%; }
-th:nth-child(4), td:nth-child(4) { width: 10%; }
-</style>
-
 ## 入门岛
 
 | 关卡代码 | 关卡名称 |  博客地址  | 源代码目录  |
