@@ -1,58 +1,40 @@
-# 第四期「书生·浦语」大模型实战营材料整理
+# 💪 第四期「书生·浦语」大模型实战营材料整理
 
 > 本仓库整理我在第四期「书生·浦语」大模型实战营中完成的作业与代码, 在[知乎专栏](https://www.zhihu.com/column/c_1866541504971022336)中存放我在本次训练营中的全部博客.
 > 有关实战营的详细信息与参与方式, 请看这里 $\longrightarrow$ [[link]](https://internlm.intern-ai.org.cn/developers/activity)
 
-<style>
-table {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid black; /* 添加边框，方便查看 */
-    text-align: center;
-}
-
-th:nth-child(1), td:nth-child(1) { width: 15%; }
-th:nth-child(2), td:nth-child(2) { width: 30%; }
-th:nth-child(3), td:nth-child(3) { width: 35%; }
-th:nth-child(4), td:nth-child(4) { width: 10%; }
-</style>
-
-## 入门岛
+## 🌱 入门岛
 
 | 关卡代码 | 关卡名称 |  博客地址  | 源代码目录  |
 | ------ | ---- | ------ |------ |
-| L0G1000   |  Linux 基础  | https://zhuanlan.zhihu.com/p/20211559104 |  |
-| L0G2000   |   Python 基础   | https://zhuanlan.zhihu.com/p/20251608972 |  |
-| L0G3000   |  Git 基础   | https://zhuanlan.zhihu.com/p/20279650389 |  |
-| L0G4000   |  玩转HF/魔搭/魔乐社区   | https://zhuanlan.zhihu.com/p/20349070577 |  |
+| L0G1000   |  Linux 基础  | https://zhuanlan.zhihu.com/p/20211559104 | [L0](./src/L0/) |
+| L0G2000   |   Python 基础   | https://zhuanlan.zhihu.com/p/20251608972 | [L0](./src/L0/) |
+| L0G3000   |  Git 基础   | https://zhuanlan.zhihu.com/p/20279650389 | [L0](./src/L0/) |
+| L0G4000   |  玩转HF/魔搭/魔乐社区   | https://zhuanlan.zhihu.com/p/20349070577 | [L0](./src/L0/) |
 
-## 基础岛
-
-| 关卡代码 | 关卡名称 |  博客地址  | 源代码目录  |
-| ------ | ---- | ------ |------ |
-| L1G1000   |  书生大模型全链路开源体系  | https://zhuanlan.zhihu.com/p/20680528206 |  |
-| L1G2000   |   玩转书生「多模态对话」与「AI搜索」产品   | https://zhuanlan.zhihu.com/p/20612685839 |  |
-| L1G3000   |  浦语提示词工程实践   | https://zhuanlan.zhihu.com/p/20635017468 |  |
-| L1G4000   |  InternLM + LlamaIndex RAG 实践   | https://zhuanlan.zhihu.com/p/20680528206 |  |
-| L1G5000   |  XTuner 微调个人小助手认知   | https://zhuanlan.zhihu.com/p/20972860078 |  |
-| L1G6000   |  OpenCompass 评测书生大模型实践   | https://zhuanlan.zhihu.com/p/21206895488 |  |
-
-## 基础岛
+## 🪴 基础岛
 
 | 关卡代码 | 关卡名称 |  博客地址  | 源代码目录  |
 | ------ | ---- | ------ |------ |
-| L2G1000   |  探索书生大模型能力边界  | https://zhuanlan.zhihu.com/p/23233308541 |  |
-| L2G2000   |   Lagent 自定义你的 Agent 智能体   | https://zhuanlan.zhihu.com/p/22596889997 |  |
-| L2G3000   |  LMDeploy 量化部署进阶实践  | https://zhuanlan.zhihu.com/p/23018314706 |  |
-| L2G4000   |  InternVL 多模态模型部署微调实践   | https://zhuanlan.zhihu.com/p/23161515847 |  |
-| L2G5000   |  茴香豆：企业级知识库问答工具   |  |  |
-| L2G6000   |  MindSearch 快速部署   |  |  |
+| L1G1000   |  书生大模型全链路开源体系  | https://zhuanlan.zhihu.com/p/20680528206 | [L1](./src/L1/) |
+| L1G2000   |   玩转书生「多模态对话」与「AI搜索」产品   | https://zhuanlan.zhihu.com/p/20612685839 | [L1](./src/L1/) |
+| L1G3000   |  浦语提示词工程实践   | https://zhuanlan.zhihu.com/p/20635017468 | [L1](./src/L1/) |
+| L1G4000   |  InternLM + LlamaIndex RAG 实践   | https://zhuanlan.zhihu.com/p/20680528206 | [L1](./src/L1/) |
+| L1G5000   |  XTuner 微调个人小助手认知   | https://zhuanlan.zhihu.com/p/20972860078 | [L1](./src/L1/) |
+| L1G6000   |  OpenCompass 评测书生大模型实践   | https://zhuanlan.zhihu.com/p/21206895488 | [L1](./src/L1/) |
 
-## Hugging Face 链接
+## 🌳 进阶岛
+
+| 关卡代码 | 关卡名称 |  博客地址  | 源代码目录  |
+| ------ | ---- | ------ |------ |
+| L2G1000   |  探索书生大模型能力边界  | https://zhuanlan.zhihu.com/p/23233308541 | [L2](./src/L2/) |
+| L2G2000   |   Lagent 自定义你的 Agent 智能体   | https://zhuanlan.zhihu.com/p/22596889997 | [L2](./src/L2/) |
+| L2G3000   |  LMDeploy 量化部署进阶实践  | https://zhuanlan.zhihu.com/p/23018314706 | [L2](./src/L2/) |
+| L2G4000   |  InternVL 多模态模型部署微调实践   | https://zhuanlan.zhihu.com/p/23161515847 | [L2](./src/L2/) |
+| L2G5000   |  茴香豆：企业级知识库问答工具   | https://zhuanlan.zhihu.com/p/23484402771 | [L2](./src/L2/) |
+| L2G6000   |  MindSearch 快速部署   |  | [L2](./src/L2/) |
+
+## 💫 Hugging Face 链接
 
 我将作业中的许多微调得到的模型上传到了 Hugging Face 平台进行托管, 也将一些 LLM 应用部署到 Hugging Face Spaces 中, 以下是这些模型仓库与 Spaces 应用的链接.
 
@@ -66,8 +48,12 @@ th:nth-child(4), td:nth-child(4) { width: 10%; }
 | Spaces   |  XTuner Chat   |  XTuner RAG 对话应用 | https://huggingface.co/spaces/D4isyC/XTuner-Chat |
 | Spaces   |  Lagent Demo   |  Single/Multi-Agent 对话应用 | https://huggingface.co/spaces/D4isyC/Lagent-Demo |
 
-## 证书
+## 👏 证书
 
-- 结业学员证书
+<details>
+
+<summary>😊 结业学员证书</summary>
 
 ![image](./assets/InternLM-Graduate.png)
+
+</details>
