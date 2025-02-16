@@ -58,3 +58,11 @@
 ![image](./assets/InternLM-Graduate.png)
 
 </details>
+
+<details>
+
+<summary>🤩 优秀学员证书</summary>
+
+![image](./assets/InternLM-Excellent.png)
+
+</details>
